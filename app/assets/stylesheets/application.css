@@ -1,10 +1,12 @@
 /*
  *= require font-awesome
- *= require_tree .
  *= require_self
+ *= require_tree .
  */
 
 body {
   color: white;
   background-color: rgb(15, 15, 15);
 }
+
+@import 'bootstrap';
