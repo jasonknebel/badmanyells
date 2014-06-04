@@ -14,6 +14,10 @@ gem 'font-awesome-sass'
 
 group :development do
   gem 'spring'
+  gem 'guard-livereload', require: false
+  gem 'rack-livereload'
+  gem 'pry'
+  gem 'rack-mini-profiler'
 end
 
 gem 'rails_12factor', group: :production
