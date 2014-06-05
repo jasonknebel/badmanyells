@@ -4,6 +4,26 @@
  *= require_tree .
  */
 
+/* Sticky footer styles
+-------------------------------------------------- */
+$footerSize: 40px;
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  padding-bottom: $footerSize * 2;
+  margin-bottom: $footerSize;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: $footerSize;
+}
+/* End of Sticky footer styles
+-------------------------------------------------- */
+
 $body-bg: rgb(15, 15, 15);
 $text-color: white;
 $link-color: rgb(207, 180, 134);
