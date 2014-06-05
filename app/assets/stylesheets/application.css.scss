@@ -4,6 +4,11 @@
  *= require_tree .
  */
 
+body > .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 $footerSize: 40px;
